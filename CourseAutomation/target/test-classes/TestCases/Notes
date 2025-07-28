@@ -1,0 +1,58 @@
+
+This is the Execution Status in Console[main] INFO org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+==========Executing TC_DEMOQA_001=============
+Opening the url:- https://demoqa.com/automation-practice-form
+ Opened the DemoQA website 
+REading Data
+Data From Excel: John
+Data From Excel: Smith
+Data From Excel: Jsmith@testing.ca
+Data From Excel: 9876543210
+John--Entered first Name
+Smith--Entered Last Name
+Jsmith@testing.ca--Entered Email 
+9876543210--Entered mobile no.
+--Gender :Clicked Male Radiobutton
+Clicked on Submit Button
+ModalPopup is Displayed:: with Title ::Thanks for submitting the form
+Inside MessageAssertion function: To verify whether the expected message is displayed
+PASS::Actual Message: 'Thanks for submitting the form' is equal to Expected Message: 'Thanks for submitting the form'
+Closing the Chrome Browser
+==========Executing TC_DEMOQA_002=============
+Opening the Chrome Browser
+Opening the url:- https://demoqa.com/buttons
+waiting For Page To Load
+Buttons Page is  opened
+Double clicked on the 'Double Click Me' Button
+Inside MessageAssertion function: To verify whether the expected message is displayed
+PASS::Actual Message: 'You have done a double click' is equal to Expected Message: 'You have done a double click'
+Closing the Chrome Browser
+==========Executing TC_DEMOQA_003=============
+Opening the Chrome Browser
+Opening the url:- https://demoqa.com/select-menu
+waiting For Page To Load
+Select Menu Page is opened
+Selecting 'Blue' from the OldSelectMenu dropdown
+Verifying selection :PASS:: Blue from the OldSelectMenu dropdown is selected as expected
+Closing the Chrome Browser
+PASSED: TestCases.DemoQAFormTest.TC_DEMOQA_001
+PASSED: TestCases.DemoQAFormTest.TC_DEMOQA_002
+PASSED: TestCases.DemoQAFormTest.TC_DEMOQA_003
+
+===============================================
+    Default test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2a334bac: 42 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@ea52184: 1 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@795f8317: 4 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@df921b1: 4 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@727320fa: 5 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2935fd2c: 0 ms

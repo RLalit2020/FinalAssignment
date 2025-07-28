@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="GroupExecutionTestng">
+
+	<groups>
+
+		<run>
+
+			<exclude name="regression test"></exclude>
+
+		</run>
+
+	</groups>
+
+	<test name="Test1">
+
+		<classes>
+
+			<class name="TestNGExecutions.WebDriverAPITest" />
+			<class name="TestNGExecutions.AlertClassTest" />
+			<class name="TestNGExecutions.AssertionsTest" />
+			<class name="TestNGExecutions.WindowHandlingTest" />
+			<class name="TestNGExecutions.FrameHandling" />
+			<class name="TestNGExecutions.MouseMovementTest" />
+
+		</classes>
+
+	</test>
+
+	<!--Test -->
+
+</suite> <!--Suite -->

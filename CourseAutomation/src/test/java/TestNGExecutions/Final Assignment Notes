@@ -1,0 +1,65 @@
+Created a Project for DemoQA website and used TestNG framework to implement the 3 testcase(as per the advice of the trainer)
+
+This is the Execution Status in Console
+C:\Users\Lalitha\AppData\Local\Temp\testng-eclipse--1561924768\testng-customsuite.xml
+
+[main] INFO org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+==========Executing TC_DEMOQA_001=============
+Opening the url:- https://demoqa.com/automation-practice-form
+ Opened the DemoQA website 
+REading Data
+Data From Excel: John
+Data From Excel: Smith
+Data From Excel: Jsmith@testing.ca
+Data From Excel: 9876543210
+John--Entered first Name
+Smith--Entered Last Name
+Jsmith@testing.ca--Entered Email 
+9876543210--Entered mobile no.
+--Gender :Clicked Male Radiobutton
+Clicked on Submit Button
+ModalPopup is Displayed:: with Title ::Thanks for submitting the form
+Inside MessageAssertion function: To verify whether the expected message is displayed
+PASS::Actual Message: 'Thanks for submitting the form' is equal to Expected Message: 'Thanks for submitting the form'
+✅ Screenshot saved at: C:\Users\Lalitha\eclipse-workspace\Final\CourseAutomation\src\test\resources\screenshots\TC_DEMOQA_001_27072025_230444.png
+Closing the Chrome Browser
+==========Executing TC_DEMOQA_002=============
+Opening the Chrome Browser
+Opening the url:- https://demoqa.com/buttons
+waiting For Page To Load
+Buttons Page is  opened
+Double clicked on the 'Double Click Me' Button
+Inside MessageAssertion function: To verify whether the expected message is displayed
+PASS::Actual Message: 'You have done a double click' is equal to Expected Message: 'You have done a double click'
+✅ Screenshot saved at: C:\Users\Lalitha\eclipse-workspace\Final\CourseAutomation\src\test\resources\screenshots\TC_DEMOQA_002_27072025_230448.png
+Closing the Chrome Browser
+==========Executing TC_DEMOQA_003=============
+Opening the Chrome Browser
+Opening the url:- https://demoqa.com/select-menu
+waiting For Page To Load
+Select Menu Page is opened
+Selecting 'Blue' from the OldSelectMenu dropdown
+Verifying selection :PASS:: Blue from the OldSelectMenu dropdown is selected as expected
+✅ Screenshot saved at: C:\Users\Lalitha\eclipse-workspace\Final\CourseAutomation\src\test\resources\screenshots\TC_DEMOQA_003_27072025_230454.png
+Closing the Chrome Browser
+PASSED: TestNGExecutions.FinalAssignmentTest.TC_DEMOQA_001
+PASSED: TestNGExecutions.FinalAssignmentTest.TC_DEMOQA_002
+PASSED: TestNGExecutions.FinalAssignmentTest.TC_DEMOQA_003
+
+===============================================
+    Default test
+    Tests run: 3, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@44a085e5: 41 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@df921b1: 1 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7c52fc81: 5 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@ae73c80: 5 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@257ef9ed: 4 ms
+[main] INFO org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@59c70ceb: 0 ms
