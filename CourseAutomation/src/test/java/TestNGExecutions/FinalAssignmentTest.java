@@ -18,7 +18,7 @@ public class FinalAssignmentTest {
 	@Test(priority = 1)
 	public void TC_DEMOQA_001() throws Exception {
 		String Filename="TC_DEMOQA_001";
-		System.out.println("==========Executing TC_DEMOQA_001=============");
+		System.out.println("==========Executing TC_DEMOQA_001==============");
 		// Calling generic reusable function to fetch the browser
 		driver = Drivers.getBrowser();
 		// Calling generic reusable function to open the URL
